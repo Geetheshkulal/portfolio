@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+
+}
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: #003153;
+}
+
+.topnavigation {
+  overflow: hidden;
+  background-color: #1C2841;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+.topnavigation a {
+  display: none;
+  color: white;
+  text-align: center;
+  padding: 5px 9px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+   float: left; 
+
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative; 
+  color: #333; 
+  transition: border-bottom 0.3s ease-in; 
+}
+
+
+.topnavigation a:hover {
+  transform: scale(1.2);
+  background-color: aqua;
+  color: black;
+  transition: border-bottom 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+/* .topnavigation a:hover {
+  background-color: cyan;
+  color: black;
+  border-radius: 10px;
+  transition: 0.1s;
+} */
+
+
+/* .topnavigation a.active {
+  background-color: aqua;
+  color: black;
+} */
+
+.topnavigation .icon {
+  display: block;
+  max-width: 200px;
+  height: 50px;
+  /* color: white; */
+}
+
+.hamburger {
+  list-style-type: none;
+  padding: 0px;
+  float: right;
+  margin-right: auto;
+  list-style-type: none;
+  /* background-color: white; */
+  border-radius: 70px;
+
+}
+.icon {
+  display: block;
+  max-width: 200px;
+  height: 40px;
+  margin-bottom: auto;
+  border-radius: 70px;
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+
+.sidebar {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  width: 100%; 
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.closebtn {
+  color: white;
+  cursor: pointer;
+  float: left;
+  /* height: 20px; */
+  font-size: 50px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop_2 {
+    display: none;
+  }
+  .topnavigation a:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+  .topnavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .icon {
+    max-width: 30px;
+    height: 30px; 
+    margin-bottom: auto;
+  }
+  
+  .sidebar {
+    
+  }
+
+  .sidebar a {
+    display: block;
+    margin: 5px;
+    color: white;
+  }
+
+  .topnavigation a {
+    display: block; 
+    width: 100%; 
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .topnavigation a {
+    display: inline-block;
+  }
+
+  .hamburger,
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
+
+
+ 
+ 
+ 
