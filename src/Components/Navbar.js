@@ -1,7 +1,7 @@
 
 import { useEffect,useState } from 'react';
 import React from 'react'
-import png from './icons/icons8.png';
+import png from './icons/icon88.png';
 import  {Link,useLocation}from 'react-router-dom';
 import './Navbar.css';
 
@@ -60,6 +60,13 @@ const hamburger=(value)=>{
    :
   <a href="quali" className='nav-link'><Link className='aboutus' to={'/quali'}>Qualification</Link></a>
  }
+
+{/* {
+   activeNav=="/Quali"?
+   ""
+   :
+  <a href="quali" ><Link className='nav-link' to={'/Qu'} onClick={()=>hamburger(false)}>QualificatioN 1</Link></a>
+ } */}
   </div>
   
 
@@ -107,6 +114,7 @@ const hamburger=(value)=>{
    :
   <a href="quali" ><Link className='aboutus' to={'/quali'} onClick={()=>hamburger(false)}>Qualification</Link></a>
  }
+
   </div>
   :
   ""

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFontAwesome,  faFacebook,faTwitter,faLinkedin,faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 
-function footer() {
+function Footer() {
   return (
     <div>
 <div class="footer">
@@ -43,4 +43,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

@@ -1,28 +1,30 @@
-import React, { useRef } from 'react';
-import './Contact.css';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './Contact.css';
+import Loader from '../Loader/Loader';
+// import Footer from '../Footer/Footer.js';
 function Contact() {
-  
 
+  const [Loading ,setloading]=useState(false);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_4n4wivg', 'template_l5sf22j', form.current, 'J4pGKe56eyDDBGnCA')
+    setloading(true);
+    emailjs.sendForm('service_4e0xjwi', 'template_gazymxs', form.current, 'GtQ0INZQ4haSB4B5U')
       .then((result) => {
-          window.alert('form subbmitted successfully');
-
-          form.current.reset();
+          window.alert('form submitted');
+          setloading(false);
       }, (error) => {
           console.log(error.text);
       });
   };
   return (
+  
+
     <div class="container-2">
     <div class="form-container">
       <h2>Contact us</h2>
-      <form action="" ref={form} onSubmit={sendEmail}>
+      <form  ref={form} onSubmit={sendEmail}>
         <label for="name">Name</label>
         <input id="name" name="name" type="text" placeholder="Your name"></input>
 
@@ -34,10 +36,15 @@ function Contact() {
         <textarea id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
 
         <div class="text-right">
+          {Loading ? "" :
           <button type="submit">Submit</button>
+  }
         </div>
+        {Loading ? <Loader/>:null}
+
       </form>
     </div>
+    {/* { footer } */}
   </div>
 
   )

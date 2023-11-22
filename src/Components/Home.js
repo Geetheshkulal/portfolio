@@ -4,6 +4,7 @@ import Skill from './Skills/Skill'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer';
 import  Quali from './Qualification/quali';
+// import  Qu from './Qu';
 
 function Home() {
   return (
@@ -13,8 +14,9 @@ function Home() {
       <Quali />
       <Contact />
       <Footer />
+      {/* <Qu /> */}
     </div>
   )
 }
 
-export default Home
+export default Home;

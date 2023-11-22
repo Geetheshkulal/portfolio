@@ -9,6 +9,12 @@ import react from '../icons/physics.png';
 import nodejs from '../icons/nodejs.png';
 import php from '../icons/php.png';
 import firebase from '../icons/firebase2.png';
+import c from '../icons/c.png';
+import cc from '../icons/c++.png';
+import python from '../icons/python.png'
+import java from '../icons/java.png'
+// import Footer from '../Footer/Footer.js';
+import { Form } from "react-router-dom";
 
 function Skill() {
   return (
@@ -89,20 +95,56 @@ function Skill() {
           </div>
         </div>
       </div>
-      {/* <h1>Skills</h1>
-      <div className="elements">
-      <li>C</li>
-        <li>C++</li>
-      <li>REACT JS</li>
-      <li>HTML</li>
-      <li>JAVASCRIPT</li>
-      <li>CSS</li>
-      <li>PHP</li>
-      <li>MYSQL</li>
-      <li>UX AND UI DESIGN</li>
-      </div> */}
+
+<div className="header">
+        <h1>Programming</h1>
+      </div>
+      <div className="container">
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="img">
+            <img src={c} className='web-icon' alt=""></img>
+            </div>
+            <h3>C</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="img">
+            <img src={cc} className='web-icon' alt=""></img>
+            </div>
+            <h3>C++</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="img">
+            <img src={python} className='web-icon' alt=""></img>
+            </div>
+            <h3>PYTHON</h3>
+          </div>
+        </div>
+
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="img">
+            <img src={java} className='web-icon' alt=""></img>
+            </div>
+            <h3>JAVA</h3>
+          </div>
+        </div>
+
+
+      </div>
+    {/* <Footer/> */}
+
     </div>
+
   );
+
 }
+
 
 export default Skill;

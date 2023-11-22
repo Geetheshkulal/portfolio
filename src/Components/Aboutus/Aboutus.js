@@ -2,6 +2,7 @@ import React from 'react';
 //import { Link,useNavigate } from 'react-router-dom';
 import './About.css';
 import pngIcon from './icons1.jpg';
+// import Footer from '../Footer/Footer.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faUser } from '@fortawesome/free-solid-svg-icons'
 
@@ -19,6 +20,7 @@ Feel free to explore our portfolio to see some of the projects we've worked on. 
         
         </div>
 
+    {/* <Footer/> */}
         
     </div>
   )
