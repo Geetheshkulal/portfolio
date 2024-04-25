@@ -6,11 +6,13 @@ import Loader from '../Loader/Loader';
 function Contact() {
 
   const [Loading ,setloading]=useState(false);
+
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
     setloading(true);
-    emailjs.sendForm('service_4e0xjwi', 'template_gazymxs', form.current, 'GtQ0INZQ4haSB4B5U')
+    emailjs.sendForm('service_2g56zgy', 'template_drkbtot', form.current, 'O104EhVXxe0kyXdAp')
       .then((result) => {
           window.alert('form submitted');
           setloading(false);
