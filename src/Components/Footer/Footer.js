@@ -19,11 +19,11 @@ function Footer() {
     </li>
 
     <li class="social-icon__item">
-         <a className='social-icon_link' href='#'><FontAwesomeIcon icon={faLinkedin} className="my-icon"/></a>
+         <a className='social-icon_link' href='https://www.linkedin.com/in/geethesh-kulal-929419228'><FontAwesomeIcon icon={faLinkedin} className="my-icon"/></a>
     </li>
 
     <li class="social-icon__item">
-         <a className='social-icon_link' href='#'><FontAwesomeIcon icon={faInstagram}className="my-icon" /></a>
+         <a className='social-icon_link' href='https://www.instagram.com/geethesh_kulal?igsh=MWVpYWVkaTMyc2x2aw=='><FontAwesomeIcon icon={faInstagram}className="my-icon" /></a>
     </li>
     </ul>
 
