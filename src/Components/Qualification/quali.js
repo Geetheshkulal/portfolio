@@ -19,10 +19,10 @@ function quali() {
       score: 'Scored 83% (PCMC)',
     },
     {
-      year: 'currently pursuing',
+      year: '2021-2025',
       title: 'COLLEGE',
       institution: 'CANARA ENGINEERING COLLEGE MANGALORE',
-      score: 'Scored 8.2 SGPA in till now..',
+      score: 'Scored 8 CGPA',
     },
   ];
 

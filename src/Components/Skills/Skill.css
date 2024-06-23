@@ -14,7 +14,7 @@
   
   .header {
     text-align: center;
-    color: white;
+    color: black;
     padding: 1rem;
     position: relative;
   }
@@ -28,7 +28,7 @@
     height: 4px;
     width: 100px;
     /* background-color: #2ecc71; */
-    background-color: white;
+    background-color: black;
     border-radius: 2px;
   }
   
@@ -57,7 +57,7 @@
   
   .skill-box {
     padding: 0rem;
-    color: white;
+    color: black;
     cursor: pointer;
   }
   
@@ -79,7 +79,7 @@
     height: 4px;
     border-radius: 2px;
     /* background-color: #2ecc71; */
-    background-color: white;
+    background-color: black;
     transition: width 0.5s;
   }
   
@@ -115,7 +115,7 @@
   }
   
   .skill-title h3 {
-    color: white;
+    color: black;
     margin: 0.5rem;
   }
   

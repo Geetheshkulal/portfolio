@@ -29,13 +29,19 @@ const hamburger=(value)=>{
 <>
 
 <div className="topnavigation" id="myTopnav">
+ 
   <div className='desktop_2'>
+
+
+
 {
   activeNav=="/"?
   ""
   :
   <a href="home" class="active" className='nav-link'><Link className='home' to={'/'}>Home</Link></a>
 }
+
+
  {
   activeNav=="/Aboutus"?
   ""
@@ -61,16 +67,11 @@ const hamburger=(value)=>{
   <a href="quali" className='nav-link'><Link className='aboutus' to={'/quali'}>Qualification</Link></a>
  }
 
-{/* {
-   activeNav=="/Quali"?
-   ""
-   :
-  <a href="quali" ><Link className='nav-link' to={'/Qu'} onClick={()=>hamburger(false)}>QualificatioN 1</Link></a>
- } */}
+
   </div>
   
 
-{/* <a href="javascript:void(0);" className='icon' onClick="myFunction()"><i class="fa fa-bars"></i></a> */}
+
 
 {!mobileNavBar?
   <div className='hamburger'>

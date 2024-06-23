@@ -34,12 +34,14 @@ main.row{
     position: relative;
     padding: 20px;
     border: 1px solid #eaeaea;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #d4d7ac;
     cursor: pointer;
     transition: all 0.4s;
 }
 .col .contents .box:hover{
-    box-shadow: 0px 3px 12px 10px #ccc;
+    /* box-shadow: 0px 3px 12px 10px #ccc; */
+    box-shadow: cyan;
     border: 1px solid transparent;
 }
 .col .contents .box::before{
@@ -50,7 +52,7 @@ main.row{
     border-radius: 50%;
     left:-42px;
     top: 0;
-    background-color: #11a372;
+    /* background-color: #11a372; */
     border: 2px solid white;
 }
 .box h4{

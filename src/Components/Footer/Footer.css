@@ -37,7 +37,7 @@
     
     .my-icon {
       font-size: 1.6rem;
-      color: white;
+      color: black;
       margin: 0 10px;
       display: inline-block;
       transition: 0.5s;
@@ -48,7 +48,7 @@
     
     .menu__link {
       font-size: 1.2rem;
-      color: white;
+      color: black;
       margin: 0 10px;
       display: inline-block;
       transition: 0.5s;
@@ -62,7 +62,7 @@
     }
     
     .footer p {
-      color: white;
+      color: black;
       margin: 7px 0 3px 0;
       font-size: 1rem;
       /* font-weight: 200; */

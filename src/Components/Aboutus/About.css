@@ -10,14 +10,15 @@
 
   body {
     /* background-color: rgb(122, 93, 134); */
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(109,109,223,1) 100%, rgba(14,195,237,1) 100%); */
     justify-content: flex-end;
     align-items: flex-end;
   }  
 h1{
     font-size: 30px;
     padding-top: 20px;
-    color: white;
+    color: black;
 
 }
 .about {
@@ -26,7 +27,7 @@ h1{
     margin-right: 100px;
     margin-left: 100px;
     width: auto;
-    color: white;
+    color: black;
     font-family: 'Inconsolata', monospace;
 font-family: 'Poppins', sans-serif;
 }
@@ -42,7 +43,7 @@ font-family: 'Poppins', sans-serif;
      .img_tag img{
     max-width: 200px;
      height: auto;  
-     border-radius: 50%;  
+     border-radius: 80%;  
 
 }    
 

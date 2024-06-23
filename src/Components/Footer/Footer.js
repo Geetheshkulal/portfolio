@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFontAwesome,  faFacebook,faTwitter,faLinkedin,faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFontAwesome,  faFacebook,faTwitter,faLinkedin,faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
     <ul class="social-icon">
     <li class="social-icon__item">
     {/* <a className='social-icon_link' href='#'><ion-icon name='logo-facebook'></ion-icon></a> */}
-    <a className='social-icon_link' href='#'><FontAwesomeIcon icon={faFacebook} className="my-icon" /></a>
+    <a className='social-icon_link' href='https://github.com/Geetheshkulal'><FontAwesomeIcon icon={faGithub} className="my-icon" /></a>
     </li>
 
     <li class="social-icon__item">
