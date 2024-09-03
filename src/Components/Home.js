@@ -1,6 +1,7 @@
 import React from 'react'
 import Aboutus from './Aboutus/Aboutus'
 import Skill from './Skills/Skill'
+import Projects from './Projects/projects'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer';
 import  Quali from './Qualification/quali';
@@ -11,8 +12,9 @@ function Home() {
     <div>
       <Aboutus />
       <Skill />
-      <Quali />
-      <Contact />
+      <Projects/>
+      <Quali/>
+      <Contact/>
       <Footer />
       {/* <Qu /> */}
     </div>

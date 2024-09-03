@@ -3,7 +3,12 @@ import './quali.css';
 import Card from './Card1.js'
 // import Footer from '../Footer/Footer.js';
 
-function quali() {
+import { useInView } from 'react-intersection-observer';
+import 'animate.css';
+
+function Quali() {
+
+
   // Array to store education data
   const educationData = [
     {
@@ -20,15 +25,16 @@ function quali() {
     },
     {
       year: '2021-2025',
-      title: 'COLLEGE',
+      title: 'B.E',
       institution: 'CANARA ENGINEERING COLLEGE MANGALORE',
       score: 'Scored 8 CGPA',
     },
   ];
 
   return (
-    <>
-      <div className='quali_box'>
+    // scroll view
+    
+      <div className='quali_box motion'>
         <main className='row'>
           {/* ----education section---- */}
           <section className='col'>
@@ -46,11 +52,11 @@ function quali() {
           </section>
         </main>
       </div>
-    </>
+    
   );
 }
 
-export default quali;
+export default Quali;
 
 
 

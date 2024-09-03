@@ -67,6 +67,13 @@ const hamburger=(value)=>{
   <a href="quali" className='nav-link'><Link className='aboutus' to={'/quali'}>Qualification</Link></a>
  }
 
+{
+   activeNav=="/projects"?
+   ""
+   :
+  <a href="projects" className='nav-link'><Link className='projects' to={'/Projects'}>Projects</Link></a>
+ }
+
 
   </div>
   
@@ -114,6 +121,13 @@ const hamburger=(value)=>{
    ""
    :
   <a href="quali" ><Link className='aboutus' to={'/quali'} onClick={()=>hamburger(false)}>Qualification</Link></a>
+ }
+
+{
+   activeNav=="/projects"?
+   ""
+   :
+  <a href="projects" ><Link className='projects' to={'/projects'} onClick={()=>hamburger(false)}>Projects</Link></a>
  }
 
   </div>

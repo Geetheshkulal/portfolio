@@ -35,7 +35,8 @@ main.row{
     padding: 20px;
     border: 1px solid #eaeaea;
     /* background-color: #ffffff; */
-    background-color: #d4d7ac;
+    /* background-color: #d4d7ac; */
+    background: linear-gradient(135deg, #3b82f6, #ffffff);
     cursor: pointer;
     transition: all 0.4s;
 }
@@ -81,3 +82,23 @@ main.row{
     }
     
 }
+
+
+@keyframes appear {
+    from{
+      opacity: 0;
+      scale: 0.2;
+       transform: translateX(-100px); 
+    }
+    to{
+      opacity: 1;
+      scale: 1;
+       transform: translateX(0px); 
+    }
+    
+  }
+  .motion{
+    animation: appear linear ;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }

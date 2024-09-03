@@ -16,8 +16,14 @@ import java from '../icons/java.png'
 // import Footer from '../Footer/Footer.js';
 import { Form } from "react-router-dom";
 
+import { useInView } from 'react-intersection-observer';
+
+
 function Skill() {
+
+
   return (
+    <div className="motion" id="about" >
     <div className="inner">
       <div className="header">
         <h1>Web development</h1>
@@ -96,10 +102,10 @@ function Skill() {
         </div>
       </div>
 
-<div className="header">
+<div className="header motion">
         <h1>Programming</h1>
       </div>
-      <div className="container">
+      <div className="container motion">
         <div className="skill-box">
           <div className="skill-title">
             <div className="img">
@@ -140,6 +146,7 @@ function Skill() {
       </div>
     {/* <Footer/> */}
 
+    </div>
     </div>
 
   );

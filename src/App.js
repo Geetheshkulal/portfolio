@@ -6,8 +6,8 @@ import Contact from './Components/Contact/Contact.js';
 import Home from './Components/Home';
 import Quali from './Components/Qualification/quali.js'
 import Footer from './Components/Footer/Footer.js';
+import Projects from './Components/Projects/projects.js';
 import {BrowserRouter ,Route,Routes} from 'react-router-dom';
-// import QualificatioN from './Components/Qu.js';
 
 function App() {
   return (
@@ -21,8 +21,9 @@ function App() {
       <Route path='/Skill' element={<Skill />} />
       <Route path='/Contact' element={<Contact />} />
        <Route path='/Quali' element={<Quali/>}/> 
+       <Route path='/projects' element={<Projects/>}/>
       <Route path='/Footer' element={<Footer />} />
-    {/* <Route path='/Qu' element={<QualificatioN />} /> */}
+
     </Routes>
     </BrowserRouter>
   

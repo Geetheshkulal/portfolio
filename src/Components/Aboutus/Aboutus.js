@@ -6,9 +6,16 @@ import pngIcon from './geethesh2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faUser } from '@fortawesome/free-solid-svg-icons'
 
+import { useInView } from 'react-intersection-observer';
+import 'animate.css';
+
 function Aboutus() {
+
+  const { ref, inView } = useInView({ triggerOnce: true });
+
   return (
-    <div>
+    <div className="motionTop" id="about" ref={ref} >
+      
         <h1>About me <FontAwesomeIcon icon={faUser} /></h1>
         <div className='img_tag'>
         <img src={pngIcon}  alt="Icon"/>

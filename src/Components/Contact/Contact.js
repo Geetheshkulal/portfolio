@@ -3,7 +3,12 @@ import emailjs from '@emailjs/browser';
 import './Contact.css';
 import Loader from '../Loader/Loader';
 // import Footer from '../Footer/Footer.js';
+
+import { useInView } from 'react-intersection-observer';
+import 'animate.css';
+
 function Contact() {
+ 
 
   const [Loading ,setloading]=useState(false);
 
@@ -22,7 +27,7 @@ function Contact() {
   };
   return (
   
-
+     <div className="motion"id="about">
     <div class="container-2">
     <div class="form-container">
       <h2>Contact us</h2>
@@ -47,6 +52,7 @@ function Contact() {
       </form>
     </div>
     {/* { footer } */}
+  </div>
   </div>
 
   )

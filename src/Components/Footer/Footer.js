@@ -6,7 +6,7 @@ import { faFontAwesome,  faFacebook,faTwitter,faLinkedin,faInstagram, faGithub} 
 
 function Footer() {
   return (
-    <div>
+    <div className='motionFooter'>
 <div class="footer">
     <ul class="social-icon">
     <li class="social-icon__item">
