@@ -89,6 +89,8 @@ const hamburger=(value)=>{
 }
 
 {mobileNavBar?
+
+<div className=''>
   <div id='mysidebar' className='sidebar'>
     <span className='closebtn' onClick={()=>hamburger(false)}>&times;</span>
 
@@ -130,6 +132,7 @@ const hamburger=(value)=>{
   <a href="projects" ><Link className='projects' to={'/projects'} onClick={()=>hamburger(false)}>Projects</Link></a>
  }
 
+  </div>
   </div>
   :
   ""

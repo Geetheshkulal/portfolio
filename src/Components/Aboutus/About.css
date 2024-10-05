@@ -4,7 +4,7 @@
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "Poppins", sans-serif;
   }
 
@@ -22,13 +22,12 @@ h1{
 
 }
 .about {
-    border-radius: 4px;
     margin-top: 120px;
     margin-right: 100px;
     margin-left: 100px;
     width: auto;
     color: black;
-    font-family: 'Inconsolata', monospace;
+
 font-family: 'Poppins', sans-serif;
 }
 
@@ -45,8 +44,27 @@ font-family: 'Poppins', sans-serif;
      height: auto;  
      border-radius: 80%;  
 
-}    
+}   
 
+/* @media only screen and (max-width: 600px) {
+  .about{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+} */
+
+@media (max-width: 640px) {
+  .about{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+}
 @keyframes zoomIn {
   from {
     opacity: 0;
